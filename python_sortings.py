@@ -57,4 +57,18 @@ def merge_sort(A,first,mid,last):
         else:
             A[o]=R[x]
             x+=1
-    print(A,first,mid,last)
+            # WTF S THIS
+                                        #QUICK
+def quick_sort():
+    ...
+    # 2 separate lessons for 2 last methods
+                                        #STALIN
+def stalin_sort(data):
+    i=0
+    while i<len(data)-1:
+        if data[i]>data[i+1]:
+            data.pop(i+1)
+        else:
+            i+=1
+    print(data)
+stalin_sort(data)
